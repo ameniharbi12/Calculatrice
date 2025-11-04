@@ -3,10 +3,13 @@ public class Main {
         int a = 2;
         int b = 3;
 
-        // Appel de la méthode multiplication de la classe Operation
-        int resultat = Operation.multiplication(a, b);
+        int resultMult = Operation.multiplication(a, b);
+        int resultSub = Operation.soustraction(a, b);
+        int resultAdd = Operation.addition(a, b);
 
-        // Affichage du résultat
-        System.out.println("Le résultat de la multiplication est : " + resultat);
+        System.out.println(a + " * " + b + " = " + resultMult);
+        System.out.println(a + " - " + b + " = " + resultSub);
+        System.out.println(a + " + " + b + " = " + resultAdd);
     }
 }
+
