@@ -14,6 +14,7 @@ public class Main {
         System.out.println(a + " - " + b + " = " + resultSub);
         System.out.println(a + " + " + b + " = " + resultAdd);
         System.out.println(a + " / " + b + " = " + resultDiv);
+        System.out.println("Au revoir"); // message ajouté
     }
 }
 
