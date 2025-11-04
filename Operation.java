@@ -15,13 +15,14 @@ public class Operation {
         return a * b;
     }
 
-    // Méthode division
+    // Méthode division avec vérification
     public static double division(int a, int b) {
-        if (b == 0) {
+        if (b != 0) {  // vérifie que b est différent de 0
+            return (double) a / b;
+        } else {
             System.out.println("Erreur : division par zéro !");
             return 0;
         }
-        return (double) a / b;
     }
 }
     
