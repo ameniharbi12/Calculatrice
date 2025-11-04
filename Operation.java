@@ -1,21 +1,22 @@
 public class Operation {
 
-    // Multiplication
-    public static int multiplication(int x, int y) {
-        System.out.println("Bonjour");
-        return x * y;
+    // Méthode addition
+    public static int addition(int a, int b) {
+        return a + b;
     }
 
-    // Soustraction
+    // Méthode soustraction
     public static int soustraction(int a, int b) {
         return a - b;
     }
 
-    // Addition
-    public static int addition(int a, int b) {
-        return a + b;
+    // Méthode multiplication
+    public static int multiplication(int a, int b) {
+        return a * b;
     }
-    public double division(int a, int b) {
+
+    // Méthode division
+    public static double division(int a, int b) {
         if (b == 0) {
             System.out.println("Erreur : division par zéro !");
             return 0;
@@ -23,6 +24,4 @@ public class Operation {
         return (double) a / b;
     }
 }
-
-
-
+    
